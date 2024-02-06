@@ -10,7 +10,6 @@
 var myaudio = document.getElementById("my_audio");
 $(document).on('click', function () {
     myaudio.play();
-    console.log('Shaadi me zaroor aana');
 });
 
 
@@ -109,12 +108,3 @@ var styles2 = [
     , 'font-weight: bold'
     , 'font-size: 32px'
 ].join(';');
-
-console.log('\n\n%c SAVE THE DATE: Dec 04, 2023!', styles);
-
-console.log('%cYour presence is requested!%c\n\nRegards: Rahul Jangir', styles1, styles2);
-
-console.log(
-    `%cShaadi me zaroor aana!\n\n`,
-    'color: yellow; background:tomato; font-size: 24pt; font-weight: bold',
-)
